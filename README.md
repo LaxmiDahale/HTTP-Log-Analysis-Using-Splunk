@@ -1,4 +1,5 @@
 # HTTP Log Analysis Using Splunk
+<img width="638" height="193" alt="image" src="https://github.com/user-attachments/assets/45723aa3-a0b7-4d61-b386-84b3c91dcc47" />
 
 ## 📌 Project Overview
 
