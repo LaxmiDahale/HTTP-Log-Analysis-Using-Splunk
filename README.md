@@ -95,6 +95,7 @@ index=http_lab
 | sort -count
 | head 10
 ```
+<img width="1125" height="546" alt="image" src="https://github.com/user-attachments/assets/34910cba-85fa-40b9-9034-94615d1b56e5" />
 
 ### Purpose
 
@@ -108,6 +109,7 @@ Identifies the top 10 source IP addresses generating HTTP requests.
 index=http_lab status_code>=500 status_code<600
 | stats count as server_errors
 ```
+<img width="1116" height="597" alt="image" src="https://github.com/user-attachments/assets/cff4af4d-6786-43b1-beea-24af89cac091" />
 
 ### Purpose
 
@@ -127,6 +129,7 @@ index=http_lab
 user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "python-requests/2.25.1", "botnet-checker/1.0")
 | stats count by user_agent
 ```
+<img width="1090" height="514" alt="image" src="https://github.com/user-attachments/assets/6c52525e-b0e1-4818-aa3f-7ef04ed44f49" />
 
 ### Purpose
 
@@ -146,6 +149,7 @@ index=http_lab resp_body_len>500000
 | table ts "id.orig_h" "id.resp_h" uri resp_body_len
 | sort -resp_body_len
 ```
+<img width="1090" height="547" alt="image" src="https://github.com/user-attachments/assets/8bda6568-cc24-4f98-881a-b26fc52a9795" />
 
 ### Purpose
 
@@ -166,6 +170,7 @@ index=http_lab
 uri IN ("/admin", "/shell.php", "/etc/passwd")
 | stats count by uri, "id.orig_h"
 ```
+<img width="1120" height="534" alt="image" src="https://github.com/user-attachments/assets/ba99e01e-1422-48c0-baa1-99b6e9ace2c3" />
 
 ### Purpose
 
