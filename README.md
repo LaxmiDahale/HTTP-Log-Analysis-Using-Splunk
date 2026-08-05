@@ -1,5 +1,11 @@
 # HTTP Log Analysis Using Splunk
-<img width="638" height="193" alt="image" src="https://github.com/user-attachments/assets/45723aa3-a0b7-4d61-b386-84b3c91dcc47" />
+<p align="center"><img width="638" height="193" alt="image" src="https://github.com/user-attachments/assets/1e866624-c907-4a23-94b1-19717b20a8a5" /></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/SIEM-Splunk-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Logs-DNS-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Security-Monitoring-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
 
 ## 📌 Project Overview
 
